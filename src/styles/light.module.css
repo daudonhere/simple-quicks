@@ -1,6 +1,62 @@
+@font-face {
+  font-family: hiragino;
+  src: url(/Fonts/hiragino/hiragino.otf);
+}
 .main {
   display: flex;
   min-height: 100vh;
   scrollbar-width: none;
   -ms-overflow-style: none;
+}
+.loadingAreaStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #128d75;
+}
+.loadingContentStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 425px;
+  height: 225px;
+}
+.loadingTextStyle {
+  font-family: hiragino;
+  font-size: 75px;
+  font-weight: 900;
+  color: #ffff;
+  margin-top: -40px;
+}
+
+.appbarAreaStyle {
+  display: flex;
+  background-color: #ffff;
+}
+.searchAreaStyle {
+  background-color: #dfdfdf;
+}
+.searchAreaStyle:hover {
+  background-color: #cdcdcd;
+}
+.inputbaseAreaStyle {
+  color: #6b6b6b;
+}
+.iconSearchStyle {
+  color: #474747;
+}
+.speedDialButtonIconStyle {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  color: #ffffff;
+}
+.speedDialIcon {
+  display: flex;
+  width: 26px;
+  height: 26px;
+  color: #E0B400;
 }
